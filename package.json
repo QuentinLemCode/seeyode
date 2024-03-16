@@ -19,5 +19,8 @@
   "homepage": "https://github.com/QuentinLemCode/seeyode#readme",
   "dependencies": {
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28"
   }
 }
