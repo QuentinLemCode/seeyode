@@ -1,0 +1,23 @@
+{
+  "name": "seeyode",
+  "version": "1.0.0",
+  "description": "See your code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinLemCode/seeyode.git"
+  },
+  "author": "QuentinLemCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinLemCode/seeyode/issues"
+  },
+  "homepage": "https://github.com/QuentinLemCode/seeyode#readme",
+  "dependencies": {
+    "typescript": "^5.4.2"
+  }
+}
