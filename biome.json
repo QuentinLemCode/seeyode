@@ -4,9 +4,7 @@
     "enabled": true
   },
   "files": {
-    "include": [
-      "src/**/*.ts"
-    ]
+    "include": ["src/**/*.ts"]
   },
   "linter": {
     "enabled": true,
@@ -14,15 +12,18 @@
       "all": true
     }
   },
+  "formatter": {
+    "enabled": true,
+    "indentWidth": 2,
+    "indentStyle": "space"
+  },
   "overrides": [
     {
-      "include": [
-        "src/**/*.spec.ts"
-      ],
+      "include": ["src/**/*.spec.ts"],
       "linter": {
         "enabled": true,
         "rules": {
-          "correctness" : {
+          "correctness": {
             "noUndeclaredVariables": "off"
           }
         }

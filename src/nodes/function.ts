@@ -1,4 +1,4 @@
-import { CodeNode } from './code-node.js';
+import { CodeNode } from "./code-node.js";
 
 export class CodeFunction extends CodeNode {
   #params: string[] = [];

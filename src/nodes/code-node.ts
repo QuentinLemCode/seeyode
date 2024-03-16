@@ -1,3 +1,1 @@
-export class CodeNode {
-
-}
+export class CodeNode {}
